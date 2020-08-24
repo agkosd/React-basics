@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wall-container {
+  border: 5px solid red;
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.btn{
+  position:absolute;
+  right:10px;
+  bottom:10px;
+  padding:10px;
+  background-color:yellow;
+  border:none;
+}
